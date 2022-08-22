@@ -9,7 +9,6 @@ MOVE_INCREMENT = 10
 class CarManager:
 
     def __init__(self):
-        super().__init__()
         self.cars = []
         self.movenum = STARTING_MOVE_DISTANCE
         self.newcar()
